@@ -15,7 +15,7 @@ style: styles-6
 #Profile information
 name: Teodor Carlsson
 tagline: Studying the Master Programme in Computer and Information Engineering at Uppsala University
-pic: me200px.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: me100px2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: teodor.carlsson@hotmail.com
