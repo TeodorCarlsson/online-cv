@@ -14,15 +14,15 @@ style: styles-6
 
 #Profile information
 name: Teodor Carlsson
-tagline: Full Stack Developer
+tagline: Studying the Master Programme in Computer and Information Engineering at Uppsala University
 pic: me400px.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: teodor.carlsson@hotmail.com
-phone: 012 345 6789
+phone: 0762131312
 website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
+linkedin: teodor-carlsson
+github: TeodorCarlsson
 twitter: '@webjeda'
 
 #Update all the sections by editing the files inside _includes folder.
