@@ -47,6 +47,11 @@
                      <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@Tejjsho" target="_blank">@Tejjsho</a></li>
                     {% endif %}
                     
+                    {% if site.address %}
+                    <li class="address"><i class="fa fa-twitter"></i><a href="" target="_blank">{{site.address}}</a></li>
+                    {% else %}
+                     <li class="address"><i class="fa fa-twitter"></i><a href="" target="_blank">Långskeppsgatan 19</a></li>
+                    {% endif %}
                 </ul>
             </div><!--//contact-container-->
            {% include education.html %}
