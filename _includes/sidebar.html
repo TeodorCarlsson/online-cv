@@ -48,9 +48,15 @@
                     {% endif %}
                     
                     {% if site.address %}
-                    <li class="address"><i class="fa fa-twitter"></i><a href="" target="_blank">{{site.address}}</a></li>
+                    <li class="address"><i class="fa fa-home"></i><a href="" target="_blank">{{site.address}}</a></li>
                     {% else %}
-                     <li class="address"><i class="fa fa-twitter"></i><a href="" target="_blank">Långskeppsgatan 19</a></li>
+                     <li class="address"><i class="fa fa-home"></i><a href="" target="_blank">Långskeppsgatan 19</a></li>
+                    {% endif %}
+                    
+                    {% if site.post-address %}
+                    <li class="post-address"><i class="fa fa-home"></i><a href="" target="_blank">{{site.address}}</a></li>
+                    {% else %}
+                     <li class="post-address"><i class="fa fa-home"></i><a href="" target="_blank">16853 Bromma</a></li>
                     {% endif %}
                 </ul>
             </div><!--//contact-container-->
