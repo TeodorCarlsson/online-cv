@@ -23,6 +23,18 @@
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:07 621 313 12">07 621 313 12</a></li>
                     {% endif %}
                     
+                    {% if site.address %}
+                    <li class="address"><i class="fa fa-home"></i><a href="" target="_blank">{{site.address}}</a></li>
+                    {% else %}
+                     <li class="address"><i class="fa fa-home"></i><a href="" target="_blank">Långskeppsgatan 19</a></li>
+                    {% endif %}
+                    
+                    {% if site.post-address %}
+                    <li class="post-address"><i class="fa fa-map-marker"></i><a href="" target="_blank">{{site.post-address}}</a></li>
+                    {% else %}
+                     <li class="post-address"><i class="fa fa-map-marker"></i><a href="" target="_blank">16853 Bromma</a></li>
+                    {% endif %}
+
                     {% if site.website %}
                     <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
                     {% else %}
@@ -47,17 +59,6 @@
                      <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@Tejjsho" target="_blank">@Tejjsho</a></li>
                     {% endif %}
                     
-                    {% if site.address %}
-                    <li class="address"><i class="fa fa-home"></i><a href="" target="_blank">{{site.address}}</a></li>
-                    {% else %}
-                     <li class="address"><i class="fa fa-home"></i><a href="" target="_blank">Långskeppsgatan 19</a></li>
-                    {% endif %}
-                    
-                    {% if site.post-address %}
-                    <li class="post-address"><i class="fa fa-home"></i><a href="" target="_blank">{{site.post-address}}</a></li>
-                    {% else %}
-                     <li class="post-address"><i class="fa fa-home"></i><a href="" target="_blank">16853 Bromma</a></li>
-                    {% endif %}
                 </ul>
             </div><!--//contact-container-->
            {% include education.html %}
